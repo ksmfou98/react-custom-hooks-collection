@@ -1,1 +1,85 @@
-ㄴㅇ
+#wrapper{
+    width:1012px;
+    margin:0 auto; /* 가운데 정렬 */
+    padding-right: 205px;
+    position: relative;
+    top : 52px;
+}
+
+#wrapper .inner{
+    width:100%;
+    position:relative;
+}
+
+
+#wrapper .inner .left_box{
+    width: 180px;
+    height: 500px;
+    
+    position:fixed;
+    top:52px;
+    
+    font-size:13px;
+    
+}
+
+
+.left_box .icon--more{
+    margin-left: auto;
+    display: none;
+    
+    
+}
+
+.left_box .my_name{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.left_box .myname > a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position:relative /*심심이 이름 떔에 position만 내가 설정한거임 문제될시 삭제 */
+     
+}
+
+.left_box .name{  /* 심심이 이름 설정 내가한거임 문제될시 삭제 */
+    position: absolute;
+    top: 11px;
+    left: 45px;
+}
+
+.left_box .list > li{
+    padding: 5px 10px;
+    margin-bottom: 2px;
+    border: 1px solid transparent; /* transparent: 투명하게 */
+    
+}
+
+.left_box .list > li > a {
+    display: flex;
+    align-items: center;
+}
+
+.left_box .list > li.active{
+    background-color: var(--fds-gray-00);
+    border: 1px solid #dddfe2;
+}
+
+.left_box .list > li.active .icon--more{
+    display:block
+}
+
+.left_box .list > li:hover{
+    background-color: var(--fds-gray-00);
+    border: 1px solid #dddfe2;
+    
+}
+
+.left_box .list > li:hover .icon--more{
+    display:block;
+}
