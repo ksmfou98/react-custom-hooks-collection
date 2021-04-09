@@ -1,7 +1,7 @@
 # hooks
 
 - [ ] useTitle
-- [ ] useInput
+- [x] useInput
 - [ ] usePageLeave
 - [ ] useClick
 - [ ] useFadeIn
@@ -10,7 +10,7 @@
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
-- [ ] useTabs
+- [x] useTabs
 - [ ] usePreventLeave
 - [ ] useConfirm
 - [ ] useAxios
